@@ -2,11 +2,11 @@ import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
 
 import { debug } from "vitest-preview";
-import App from "../App";
+import DashboardHome from '../components/DashboardHome';
 
-describe("App", () => {
+describe("DashboardHome", () => {
   it("Test the Home page", async () => {
-    render(<App />);
+    render(<DashboardHome />);
     expect(screen.getByText(/and save to test HMR/i)).toBeDefined();
     const button = screen.getByText(/Count is 0/i);
     fireEvent.click(button);
