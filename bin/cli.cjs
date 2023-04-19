@@ -18,7 +18,7 @@ const runCommand = commnd => {
 }
 
 const repoName= process.argv[2];
-const gitCheckoutCommand = `git clone --depth 1 git@bitbucket.org:turtleshelltechnologies/vite-starter.git ${repoName}`;
+const gitCheckoutCommand = `git clone --depth 1 https://github.com/amitreddykarkala/vite-starter.git ${repoName}`;
 const installDepsCommand = `cd ${repoName} && npm install`;
 
 console.log(`cloning the repository ${repoName}`);
