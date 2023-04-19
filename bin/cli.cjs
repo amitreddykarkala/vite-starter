@@ -9,7 +9,7 @@ if (process.argv.length < 3) {
 
 const runCommand = commnd => {
     try {
-        execSync(`${commnd}, {stdio: 'inherit'}`);
+        execSync(`${commnd}`, {stdio: 'inherit'});
     } catch (error) {
         console.log(`Failed to execute ${commnd}`, error);
         return false;
