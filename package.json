@@ -1,6 +1,6 @@
 {
-  "name": "vite-starter",
-  "private": true,
+  "name": "@dozee-studio/vite-starter",
+  "bin": "./bin/cli.cjs",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -16,6 +16,10 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitreddykarkala/vite-starter.git"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.9",
