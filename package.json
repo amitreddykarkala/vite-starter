@@ -1,7 +1,7 @@
 {
   "name": "@dozee-studio/vite-starter",
   "bin": "./bin/cli.cjs",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "scripts": {
     "start": "vite",
