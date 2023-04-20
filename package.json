@@ -1,5 +1,5 @@
 {
-  "name": "@dozee-studio/vite-starter",
+  "name": "@amitreddykarkala/vite-starter",
   "bin": "./bin/cli.cjs",
   "version": "0.0.5",
   "type": "module",
