@@ -4,13 +4,12 @@ import DozeeIcon, { MenuIcon } from "../assets/Icon";
 import DashboardMenu from "./DashboardMenu";
 import DashboardTasks from "./DashboardTasks";
 
-const Dashboard = () => {
-
+const Dashboard = () => {  
   return (
     <React.Fragment>
       <div className="flex w-full flex-row">
         <div className="flex basis-1/12">
-            <DashboardMenu />
+          <DashboardMenu />
         </div>
         <div className="flex basis-9/12">
           <Outlet />
