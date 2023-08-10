@@ -1,6 +1,5 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
-import DozeeIcon, { MenuIcon } from "../assets/Icon";
+import { Outlet } from "react-router-dom";
 import DashboardMenu from "./DashboardMenu";
 import DashboardTasks from "./DashboardTasks";
 
